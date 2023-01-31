@@ -1,4 +1,4 @@
-import { Hero } from "../../sections";
+import { Footer } from "../../components";
 import Link from "next/link";
 import styles from "../../styles";
 import { motion } from "framer-motion";
@@ -8,9 +8,9 @@ const Home = () => (
   <div>
     <div className="bg-primary-black overflow-hidden">
       <div
-        className={`${styles.innerWidth} flex lg:flex-row flex-col gap-8 mt-5 ml-5 `}
+        className={`${styles.innerWidth} flex lg:flex-row flex-col gap-8 mt-5`}
       >
-        <div className="flex lg:flex-row flex-col gap-8 ml-5 ">
+        <div className="flex lg:flex-row flex-col gap-8">
           <Link href="/" className="z-[100]">
             <motion.div
               onClick={() => null}
@@ -18,7 +18,7 @@ const Home = () => (
               whileTap={{ scale: 0.9 }}
             >
               <div
-                className={`${styles.flexCenter} w-[70px] h-[70px] rounded-[24px] bg-[#323F5D] z-[100]`}
+                className={`${styles.flexCenter} w-[70px] h-[70px] rounded-[24px] bg-[#323F5D]`}
               >
                 <ul>
                   <li>
@@ -60,8 +60,29 @@ const Home = () => (
               className="relative md:-mt-[20px] -mt-[12px] left-0"
             >
               <h2 className={styles.ResumeHeadings}>Resume</h2>
-              <div className="mb-[50px] h-[2px] bg-purple-500 opacity-30" />
 
+              <div className="mb-[50px] h-[2px] bg-purple-500 opacity-30" />
+              <div className="text-right">
+             
+                <button className="bg-purple-500 w-56 h-[50px] rounded">
+                <motion.div
+              onClick={() => null}
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.5 }}
+            > 
+                  <a
+                    className="hover:text-white"
+                    href="/Resume.pdf"
+                    download="Resume.pdf"
+                    target="_blank"
+                  >
+                    Download Resume
+                  </a>
+                  </motion.div>
+                </button>
+                
+              </div>
+              
               <div class="flex items-center justify-center mt-5">
                 <div class="w-1/8 p-10 h-auto text-purple-200">
                   <div class="flex items-center justify-center mb-10">
@@ -120,9 +141,7 @@ const Home = () => (
                 </div>
 
                 <div class=" bg-white w-7/12 p-10 h-auto rounded-[24px]">
-                  <h1 class=" ">
-                    
-                  </h1>
+                  <h1 class=" "></h1>
                   <h1 class="font-semibold uppercase tracking-wider my-6  ">
                     ACADEMIC PROJECTS
                   </h1>
@@ -155,7 +174,9 @@ const Home = () => (
                   <ul class="list-disc ml-5  ">
                     <li>The Boy Scouts of America | Troop 526</li>
                   </ul>
-                  <h1 class="text-gray-600 font-semibold mt-3">Experience</h1>
+                  <h1 class="mt-2 uppercase tracking-widest text-lg font-bold">
+                    Experience
+                  </h1>
                   <hr class="w-1/6 mb-5" />
                   <h1 class="text-gray-600 font-semibold mt-3">
                     Pizza Delivery Driver
@@ -192,6 +213,7 @@ const Home = () => (
       <div className="relative">
         <div className="gradient-04 z-0" />
       </div>
+      <Footer />
     </div>
   </div>
 );

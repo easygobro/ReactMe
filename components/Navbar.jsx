@@ -79,7 +79,7 @@ export default function Navbar() {
                           duration={500}
                           onClick={cycleOpen}
                         >
-                          About Myself
+                          About
                         </Link>
                       </li>
                     </motion.div>
@@ -133,7 +133,7 @@ export default function Navbar() {
                           duration={500}
                           onClick={cycleOpen}
                         >
-                          What's New
+                          Blog
                         </Link>
                       </li>
                     </motion.div>

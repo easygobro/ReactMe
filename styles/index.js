@@ -8,7 +8,7 @@ const styles = {
   topPaddings: "sm:pt-16 xs:pt-8 pt-12",
   bottomPaddings: "sm:pb-16 xs:pb-8 pb-12",
 
-  flexCenter: "flex justify-center items-center",
+  flexCenter: "flex justify-center items-center ml-2",
   flexStart: "flex justify-start items-start",
   flexEnd: "flex justify-end",
   navPadding: "pt-[98px]",
@@ -29,7 +29,10 @@ const styles = {
     "font-extrabold text-white text-left pl-3 w-[100%] lg:text-[55px] md:text-[50px] sm:text-[40px] text-[35px] ",
     Resumeinner:
     "padding: 10px 80px; margin: 80px auto; background: #f5f5f5; border: solid #666; border-width: 8px 0 2px 0;",
+    ResumeButton:
+    "w-56 bg-purple-500 rounded h-[50px]",
 };
+
 
 
 export default styles;
