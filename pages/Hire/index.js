@@ -18,7 +18,7 @@ const Home = () => (
               whileTap={{ scale: 0.9 }}
             >
               <div
-                className={`${styles.flexCenter} w-[70px] h-[70px] rounded-[24px] bg-[#323F5D]`}
+                className={`${styles.flexCenter} w-[70px] h-[70px] rounded-[24px] bg-[#323F5D] ml-2`}
               >
                 <ul>
                   <li>
@@ -143,7 +143,7 @@ const Home = () => (
                 <div class=" bg-white w-7/12 p-10 h-auto rounded-[24px]">
                   <h1 class=" "></h1>
                   <h1 class="font-semibold uppercase tracking-wider my-6  ">
-                    ACADEMIC PROJECTS
+                    RELATED COURSEWORK
                   </h1>
                   <hr class="w-1/6 mb-5" />
                   <h1 class="text-gray-600 font-semibold">

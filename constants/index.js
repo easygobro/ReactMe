@@ -1,30 +1,30 @@
-export const exploreWorlds = [
+export const exploreWorks = [
   {
-    id: "world-1",
+    id: "work-1",
     imgUrl: "/shell.png",
     title: "tsh Shell",
     URL: "https://github.com/easygobro",
   },
   {
-    id: "world-2",
+    id: "work-2",
     imgUrl: "/decoding.jpg",
     title: "Ceasar-Cipher Program",
     URL: "https://github.com/easygobro/Ceasar-Cipher-System-Program",
   },
   {
-    id: "world-3",
+    id: "work-3",
     imgUrl: "/nextjs.png",
     title: "React + Next.js",
-    URL: "https://github.com/easygobro",
+    URL: "https://github.com/easygobro/ReactMe",
   },
   {
-    id: "world-4",
+    id: "work-4",
     imgUrl: "/archlinux.jpg",
     title: "Arch Config",
     URL: "https://github.com/easygobro/archConfig",
   },
   {
-    id: "world-5",
+    id: "work-5",
     imgUrl: "/git.png",
     title: "Github",
     URL: "https://github.com/easygobro",

@@ -4,12 +4,12 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 
 import styles from "../styles";
-import { exploreWorlds } from "../constants";
+import { exploreWorks } from "../constants";
 import { staggerContainer } from "../utils/motion";
 import { WorkCard, TitleText, TypingText } from "../components";
 
 const Explore = () => {
-  const [active, setActive] = useState("world-2");
+  const [active, setActive] = useState("works-2");
 
   return (
     <section className={`${styles.paddings}`} id="explore">
@@ -26,10 +26,10 @@ const Explore = () => {
           textStyles="text-center"
         />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
-          {exploreWorlds.map((world, index) => (
+          {exploreWorks.map((work, index) => (
             <WorkCard
-              key={world.id}
-              {...world}
+              key={work.id}
+              {...work}
               index={index}
               active={active}
               handleClick={setActive}
