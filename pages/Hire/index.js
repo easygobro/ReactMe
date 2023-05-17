@@ -18,7 +18,7 @@ const Home = () => (
               whileTap={{ scale: 0.9 }}
             >
               <div
-                className={`${styles.flexCenter} w-[70px] h-[70px] rounded-[24px] bg-[#323F5D] ml-2`}
+                className={`${styles.flexCenter} w-[70px] h-[70px] rounded-[24px] bg-[#323F5D]`}
               >
                 <ul>
                   <li>

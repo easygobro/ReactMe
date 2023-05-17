@@ -28,7 +28,7 @@ const Home = () => (
           className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8 `}
         >
           <div className="mx-auto flex lg:flex-row flex-col gap-8">
-            <Link href="/Hire" className="z-[100]">
+            <Link href="/Resume.pdf" className="z-[100]" target="_blank">
               <motion.div
                 onClick={() => null}
                 whileHover={{ scale: 1.1 }}

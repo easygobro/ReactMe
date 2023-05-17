@@ -1,9 +1,9 @@
 export const exploreWorks = [
   {
     id: "work-1",
-    imgUrl: "/shell.png",
-    title: "tsh Shell",
-    URL: "https://github.com/easygobro",
+    imgUrl: "/ShopProjectPic.jpg",
+    title: "RESTful Web Service",
+    URL: "https://github.com/easygobro/ShopProject",
   },
   {
     id: "work-2",
